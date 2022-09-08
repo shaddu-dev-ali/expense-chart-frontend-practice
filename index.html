@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./expense.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="./expense.js" defer></script>
+
+    <title>Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="my-balance">
+        <div class="left">
+          <p class="mybalance-title">My Balance</p>
+          <h2 class="balance">$921.68</h2>
+        </div>
+
+        <div class="right">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <h2 class="spending-title">
+          Spending - Last 7 days
+        </h2>
+
+        <div class="chart">
+          <!-- <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+            <div class="day"></div>
+            <span>mon</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>tue</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>wed</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>thu</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>fri</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>sat</span>
+          </div>
+          <div class="chart-block">
+            <div class="amt-block">$17.45</div>
+
+            <div class="day"></div>
+            <span>sun</span>
+          </div> -->
+        </div>
+
+        <div class="monthly-value">
+          <div class="m-value">
+            <p>Total this month</p>
+            <h1 class="value">$478.56</h1>
+          </div>
+          <div class="i-value">
+            <h4>+2.4%</h4>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </div>
+  </body>
+</html>
+<!-- My balance $921.48 Spending - Last 7 days mon tue wed thu
+fri sat sun Total this month $478.33 +2.4% from last month -->

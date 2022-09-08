@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1120px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: hsl(27, 66%, 92%);
+  margin: 0 auto;
+}
+
+.container {
+  position: absolute;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.my-balance {
+  background: rgb(247, 132, 90);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mybalance-title {
+  font-size: 18px;
+  color: azure;
+}
+
+.balance {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.chart-container {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.526);
+  padding-bottom: 20px;
+}
+
+.chart-block {
+  align-self: flex-end;
+}
+
+/* .chart-block .wed-line:hover {
+  background: red;
+} */
+
+.amt-block {
+  background-color: black;
+  color: white;
+  margin-left: -5px;
+  padding: 3px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active .amt-block {
+  opacity: 1;
+}
+
+.chart-block .today {
+  background: skyblue;
+  transition: all 0.5s;
+}
+
+.chart-block .today:hover {
+  background-color: lightblue;
+}
+
+.day {
+  width: 30px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: all 0.5s;
+}
+
+.day:hover {
+  background-color: rgb(253, 187, 65);
+}
+
+/* .mon-line {
+  width: 30px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.tue-line {
+  width: 30px;
+  height: 70px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.wed-line {
+  width: 30px;
+  transition: all 0.3s;
+  position: relative;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+.thu-line {
+  width: 30px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.fri-line {
+  width: 30px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.sat-line {
+  width: 30px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.sun-line {
+  width: 30px;
+  height: 40px;
+  background: orange;
+  border-radius: 5px;
+  margin: 10px 0;
+} */
+
+.monthly-value {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-value p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: grey;
+}
+.i-value p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: grey;
+}
+
+.i-value h4 {
+  text-align: right;
+}
